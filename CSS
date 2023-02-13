@@ -1,0 +1,52 @@
+cuerpo{
+    background-image: url(/fondo/C:\Users\cesva\OneDrive\Escritorio\8SIS1AWeb_valencia garcia diego armando\06Algoritmia);
+    tamaño de fondo: cubierta;
+    Color: RGB(255, 255, 255));
+}
+
+tbody {
+    Color: RGB(255, 255, 255));
+      Tamaño de fuente: 1.5REM;
+
+}
+
+botón:desplazar {
+    Ancho: 300px;
+    fondo-color: #000000; 
+    Color: RGB(255, 255, 255));
+}
+
+
+. vertical-centro{
+    Pantalla: Flex;
+    justificar-contenido: centro;
+    align-items: center 
+    
+  }
+
+*{
+    margen: 0;
+    relleno: 0;
+    tamaño de caja: border-box;
+    font-family:'Courier New', Courier, monospace ;
+}
+cuerpo{
+    Ancho: 100%;
+    Altura: 100% VH;
+    Pantalla: Flex;
+    dirección flexible: columna;
+    justificar-contenido: centro;
+    align-items: centro;
+    Espacio: 100px;
+    color de fondo: RGB (252, 252, 252);
+}
+
+entrada{
+    Ancho: 300px;
+    Altura: 35px;
+}
+
+. número{
+    color de fondo: RGB (167, 167, 167);
+
+}
