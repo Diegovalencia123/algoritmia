@@ -1,0 +1,78 @@
+función problema1(){
+     función inversa(s)){
+        devolver s. split(""). reverso(). juntar("");
+    }
+    
+    var sss = reverse("adam")
+    consola. registro(sss)
+}
+
+función problema2(){
+
+    var p2_x1 = documento. querySelector('#p2-x1'). valor;
+
+    var p2_x2 = documento. querySelector('#p2-x2'). valor;
+
+    var p2_x3 = documento. querySelector('#p2-x3'). valor;
+
+    var p2_x4 = documento. querySelector('#p2-x4'). valor;
+
+    var p2_x5 = documento. querySelector('#p2-x5'). valor;
+
+    var p2_y1 = documento. querySelector('#p2-y1'). valor;
+
+    var p2_y2 = documento. querySelector('#p2-y2'). valor;
+
+    var p2_y3 = documento. querySelector('#p2-y3'). valor;
+
+    var p2_y4 = documento. querySelector('#p2-y4'). valor;
+
+    var p2_y5 = documento. querySelector('#p2-y5'). valor;
+
+
+    var v1 = [p2_x1, p2_x2, p2_x3, p2_x4, p2_x5];
+
+    var v2 = [p2_y1, p2_y2, p2_y3, p2_y4, p2_y5];
+
+    ordeno los vectores
+
+    v1 = v1.  sort(función (a, b){
+    Volver B-A;
+    });
+
+    v2 = v2.  sort(función (a, b){
+    Volver B-A;
+    });
+
+    v2 = v2.  Marcha atrás();
+
+    el producto escalar
+
+    var p2_producto = 0;
+
+    for(var i = 0;  I < v1. longitud;  Yo++){
+    p2_producto += v1[i]*v2[i];
+    }
+
+    documento. querySelector('#p2-output'). textContent = 'Producto Escalar Minimo: ' + p2_producto;
+}
+
+
+función Problema 3(){
+    función problema2(){
+        documento. addEventListener("DOMContentLoaded", e =>{
+            Contadordeletra();
+            })
+            const Contadordeletra = () =>{
+                const $input = documento. getElementById("entrada");
+                const $p = documento. querySelector("p");
+                const $number = documento. getElementById("número");
+        
+                $input. addEventListener("input", e =>{
+                    $number. valor = e. objetivo. valor. largura;
+                    $p. textContent = e. objetivo. valor;
+                })
+        }
+    }
+}
+        
